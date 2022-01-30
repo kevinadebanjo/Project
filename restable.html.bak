@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Badges Demo</title>
+<!--Required meta type-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<style>
+div{
+border:0px solid black;
+background-color:rgb(15, 17, 8);
+}
+p{
+color:white;
+font-family:Arial Black;
+}
+h2{
+color:white;
+font-family:algerian;
+}
+h4{
+color:white;
+font-family:;
+}
+
+#footer{
+background-color:rgb(15, 17, 8);
+
+}
+
+
+a{
+text-decoration:none;
+color:white;
+padding:30px;
+
+font-family:Algerian;
+
+}
+
+a:hover{
+color:orange;
+}
+
+</style>
+
+</head>
+<body style="background-color:rgb(15, 17, 8)">
+
+<div class="container">
+<div class="row">
+<div class="col-md-4 p-4">
+<img src="images/IMG_2951.JPG" width="310px"/>
+
+
+
+</div>
+<div class="col-md-4 p-4">
+<img src="images/IMG_2953.JPG" width="330px" style="border-radius:50%"/>
+
+
+
+</div>
+<div class="col-md-4 p-4">
+<img src="images/IMG_2952.JPG" />
+
+
+
+</div>
+</div>
+<!--second row-->
+<div class="row">
+<div class="col-md-4">
+<h2><u>About me</u></h2>
+<p>From lagos,Nigeria. I always had a thing for computers but i guess i didnt just know what it was until i started programming.</p>
+
+</div>
+<div class="col-md-4">
+<h2><u>Skills</u></h2>
+<p>An experienced software engineer with a bacground of building scalable systems in the fintech,health, and adult entertainment industries. Expert in Javascript,Typescript,Node.js,React Al,Mia Khalifa,C++.</p>
+
+</div>
+<div class="col-md-4">
+<h2><u>My dreams</u></h2>
+<p>I never had any passion for any computer based dream. Not until i started programming and i actually realized that it was something i would love to do.</p>
+
+</div>
+
+
+
+
+
+</div>
+<!--third row-->
+<div class="row">
+<div class="col-md-4 p-4">
+
+<img src="images/IMG_2932.JPG" width="310px">
+<p>WEB DESIGN & E-COMMERCE.</p>
+</div>
+<div class="col-md-4 p-4">
+<img src="images/IMG_2933.JPG" style="border-radius:50%">
+<p>HTML/CSS/PHP/JavaScript.</p>
+</div>
+<div class="col-md-4 p-4">
+<img src="images/IMG_2934.JPG">
+<p>BRANDING AND LOGO DESIGNING.</p>
+</div>
+</div>
+<!--fourth row-->
+<div class='row'>
+<div class='col-md-4' id='footer'><h2>
+
+<a href='java.html'>HOME</a>
+
+</h2>
+
+<i class="fas fa-envelope fa-4x"></i>
+
+
+</div>
+<div class='col-md-4' id='footer' style="background-color:rgb()">
+
+<p>Email:kevinadebanjo@gmail.com.</p>
+<p>Phone:08179460677.</p>
+<p>Website Created By Me.&copy; 2022</p>
+
+</div>
+<div class='col-md-4' id='footer'><h4></h4>
+
+<h2>
+
+<a href=''>CONTACT ME.</a>
+
+</h2>
+
+</div>
+</div>
+</div>
+
+
+
+<!-- Bootstrap JS-->
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

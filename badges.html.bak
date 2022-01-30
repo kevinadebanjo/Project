@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Badges Demo</title>
+<!--Required meta type-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<!--internal style-->
+<style>
+
+div{
+border:0px solid black;
+}
+body{
+background-color:rgb(15, 17, 8)
+}
+h3{
+font-family:algerian;
+color:white;
+}
+#form{
+position:relative;
+top:100px;
+}
+#footer{
+position:relative;
+top:223px;
+
+}
+
+
+a{
+text-decoration:none;
+color:white;
+padding:30px;
+
+font-family:Algerian;
+
+}
+
+a:hover{
+color:orange;
+}
+
+p{
+color:white;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+
+
+</div>
+<div class="col-md-4"id="form">
+<h3><u>FILL THE FORM.</u></h3>
+
+    <form action='' method=''>
+	<p>
+   
+     <input type='text' name='fullname' id='fullname' placeholder='Fullname'>
+    </p>
+	<p>
+	
+	<input type='password' name='pswd' id='mypassword' placeholder='Phone No'>
+	
+	</p>
+	<p>
+	
+	<input type='email' name='emailaddress' placeholder='Email'/>
+
+	
+	</p>
+	
+	<p>
+	   
+	   <select name='country' placeholder='select'>
+	   <option value='nigeria'>Nigeria</option>
+	   <option value='ghana' >Ghana</option>
+	   <option value='mali'>Mali</option>
+	   <option value='canada'>Canada</option>
+	   <option value='india'>India</option>
+	   
+	   
+	   
+	   </select>
+	   
+	   <p>
+	 
+	   <textarea name='bio' rows='1' cols='16' placeholder='Your Questions?'></textarea>
+	  
+	   
+	   </p>
+	
+	
+	<input type='Submit' name='Send' value='Send'/>
+	
+	<input type='Reset'  name='Reset'  value='Reset'/>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    </form>
+	
+</div>
+<div class="col-md-4"></div>
+</div>
+
+<!--fourth row-->
+<div class='row'>
+<div class='col-md-4' id='footer'><h2>
+
+<a href='java.html'>HOME</a>
+
+</h2>
+
+<i class="fas fa-envelope fa-4x"></i>
+
+
+</div>
+<div class='col-md-4' id='footer' style="background-color:rgb()">
+
+<p>Email:kevinadebanjo@gmail.com.</p>
+<p>Phone:08179460677.</p>
+<p>Website Created By Me.&copy; 2022</p>
+
+</div>
+<div class='col-md-4' id='footer'><h4></h4>
+
+<h2>
+
+<a href='restable.html'>ABOUT KEVIN.</a>
+
+</h2>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+<!-- Bootstrap JS-->
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
